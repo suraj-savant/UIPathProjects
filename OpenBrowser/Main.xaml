@@ -1,0 +1,168 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="592,1316" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,1251.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: LinkedIn: Log In or Sign Up - Google Chrome" sap:VirtualizedContainerService.HintSize="484,861.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="4230ed84-a45f-4a93-bfe0-3ca3c20ce032" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,564" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'linkedin.com/home'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="4230ed84-a45f-4a93-bfe0-3ca3c20ce032" Text="https://linkedin.com/home" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="246, 87, 1367, 37" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'linkedin.com/home'" FullSelectorArgument="&lt;ctrl name='LinkedIn: Log In or Sign Up - Google Chrome - Suraj (students.gi*' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='LinkedIn: Log In or Sign Up - Google Chrome - Suraj (students.gi*' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' /&gt;" Guid="2d0d6278-4029-485a-90fb-496325d61026" InformativeScreenshot="b6d3fbba4da07c6c970f055058f3c502.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='LinkedIn: Log In or Sign Up - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="388,185.33333333333334" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" ScopeIdentifier="4230ed84-a45f-4a93-bfe0-3ca3c20ce032" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="fdb9e7b65e5f25b4afd8d28b8d7f592d.png" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='LinkedIn: Log In or Sign Up - Google Chrome' /&gt;" Title="LinkedIn: Log In or Sign Up - Google Chrome" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: LinkedIn: Log In or Sign Up" sap:VirtualizedContainerService.HintSize="484,239.33333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="42822b4b-acba-405d-83be-8ccf0ec1ccb0" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email or phone'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="42822b4b-acba-405d-83be-8ccf0ec1ccb0" Text="git22cs415-t@students.git.edu" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.linkedin.com/home" DesignTimeRectangle="138, 720, 562, 37" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT session_key'" FullSelectorArgument="&lt;webctrl id='session_key' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='session_key' tag='INPUT' type='text' class='text-color-text font-sans text-md outline-0 bg-color-transparent grow' aaname='           Email or phone         ' /&gt;" Guid="233b8246-5b44-445e-a893-64ff96ffa5a8" InformativeScreenshot="ec722a84dd686dafbd802c50d4748ee8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LinkedIn: Log In or Sign Up' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="113, 655, 612, 32" ElementType="Text" FriendlyName="'Email or phone'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='input-label mb-1' aaname='           Email or phone         ' check:innerText='Email or phone' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_3" IsPassword="True" ScopeIdentifier="42822b4b-acba-405d-83be-8ccf0ec1ccb0" Text="Suraj415@GIT" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.linkedin.com/home" DesignTimeRectangle="138, 768, 482, 37" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FriendlyName="'INPUT session_password'" FullSelectorArgument="&lt;webctrl id='session_password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='session_password' tag='INPUT' type='password' class='text-color-text font-sans text-md outline-0 bg-color-transparent grow' aaname='           Password         ' /&gt;" Guid="67df6373-7294-4f92-b972-cd18218b4eb3" InformativeScreenshot="64e2fa5394840b0702fd758c399aaf1a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LinkedIn: Log In or Sign Up' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="113, 702, 612, 32" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='           Password         ' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='           Password         ' tag='LABEL' type='' class='input-label mb-1' check:innerText='Password' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign in'" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="42822b4b-acba-405d-83be-8ccf0ec1ccb0" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.linkedin.com/home" DesignTimeRectangle="113, 774, 612, 72" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Sign in'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn-md btn-primary flex-shrink-0 cursor-pointer&amp;#xA;            sign-in-form__submit-btn--full-width' aaname='           Sign in         ' check:innerText='Sign in' /&gt;" Guid="6e42e705-696a-4c9d-8b31-f15e58bf72df" InformativeScreenshot="8492adebd1526250a4d3c5aba0f8d071.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LinkedIn: Log In or Sign Up' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAN0SURBVHhe7ZsxihRRGIT3CHsEj+ARPIJH8AiCqcEmhoKRqYaGi4kIBotgooEbbCIoiCAmImuiYNK+ejst9fdfs9XPXnCmnwUf7Kupmtn/TXfP7EIfDMPQNdLsCWn2hDR7Qprg4M7To8J5YdhzMANmOZRzJqMEC6cF9WT7zOl01jpvMi52Sz3BGjhK8yZjHYf9Ns7TvMnQxdWQ5k2GKK2JNG8yRElx4+Gr4ej5uwp+VpldJM2bDFFiMOzHbz9KNArePmxEUZw3GaI0ggGddn0TiuK8yRClEfXOT4WM6u4KRXHeZIgSmPPuj9rlo6AozpsMUQK42M0Vsuo5doGiOG8yRAl0vwHdnwKg64sgmHMU7PK7D4rivMkQJQYDqiMB3q4PD4rivMkQJQWGxcUO7MPgI2neZIjSmkjzJkOU/gU4qsaj7Oaj13/Wh3efyfxc0rzJECXGqSU//b6AAY/Pvmwe3S5cb9D9m80oivMmQ5QYp5b8uAHX7r0YTt5/3bjzdf7z13Drydv0mpdRFOdNhigxTi15bMD1+yd1kCVq2YSiOG8yRIlxasnjcF86/CicPtPXVhTFeZMhSoxTa/6qhFNo+tqKojhvMkSJcWrNX6VwOk1ff0pRnDcZosQ4teavUtNPFUVRnDcZosQ4teanwjUBh/PI6efvm0e85pwGRXHeZIgS49SaH3XZRxoucHM2As+h+kxRnDcZosQ4teYh/OLu/MXjc6S6DCJMWFRDlBin1jw093P88ZtPm8Z2qR6DCBMW1RAlxqk13/IPlNvHZ5vWdqkegwgTFtUQJcapNf/g5YfU2QauBU6qxyDChEU1RIlxas3jL71pZxur3IC5X2FB9xsAnFSHQYQJi2qIEuO0NO9wUh0GESYsqiFKjNPSvMNJdRhEmLCohigxTkvzDifVYRBhwqIaosQ4Lc07nFSHQYQJi2qIEuO0NO9wUh0GESYsqiFKjNPSvMNJdRhEmLCohigxTkvzDifVYRBhwqIaosQ4Lc07nFSHQYQJi2qIEuO0NO9wUh0GESYsqiFKjNPSvMNJdRhEmLCohigxTkvzDifVYRBhwqIaosQ4Lc07nFSHQYQJi2qI0ppI8yZDlNZEmjcZorQm0rzJEKU1keZNxv8bJjq/ZaaaPd80Vc2LO8dWdducmhNIsyek2RPS7Alp9sNw8BsApZQX8V/lIAAAAABJRU5ErkJggg==" InformativeScreenshot="844a038c8483eec600319e422ac1e8e2.jpg" Selector="&lt;html app='chrome.exe' title='LinkedIn: Log In or Sign Up' /&gt;" Title="LinkedIn: Log In or Sign Up" Url="https://www.linkedin.com/home" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
